@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(133, 143, 140);
+}
+.content{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+th{
+    background-color: rgb(233, 243, 243);
+height: 40;
+vertical-align: middle;
+}
+td{
+    background-color: rgb(198, 211, 207);
+height: 40px; ;
+vertical-align: middle;
+
+}
+
+table{
+    width: 100;
+border: 0;
+ border: 4px;
+}
+
+.imgg{
+height: 55px;
+width: 40px;
+}
+
+
+.page2{
+    margin-top: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 40px;
+    color: black;
+    font-size: 30px;
+}
+li{
+    display: inline-block;
+}
