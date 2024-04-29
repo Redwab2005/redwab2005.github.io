@@ -1,0 +1,169 @@
+.hcars{text-align: center;
+    text-shadow: 2px 2px 5px black;
+     color: aliceblue;
+     background: local;
+}
+.p1{
+  background-color: brown;
+  color: aliceblue;
+  text-align: center;
+}
+.page2{
+    margin-top: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 40px;
+    color: black;
+    font-size: 30px;
+}
+#icon{
+    width: 30px;    
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: aliceblue;
+
+}
+a{
+    text-decoration: none;
+    color: var(--text);
+}
+p{
+    color: var(--text);
+}
+.title1{
+    color: var(--textbig);
+}
+.col4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 40px;
+    transition: transform 0.5s;
+    background-color: var(--itembackground);
+    border-radius: 10px;
+    margin-left: 10px;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.p2{
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+} 
+.p3{ background-color: brown;
+    color: aliceblue;
+    text-align: center;
+}
+    .p4{ background-color: brown;
+        color: aliceblue;
+        text-align: center;
+    }
+    .p5{
+        background-color: brown;
+        color: aliceblue;
+        text-align: center;
+    }
+.p6{ background-color: brown;
+    color: aliceblue;
+    text-align: center;}
+    .dprado{border: 2px black;
+        background-color: aliceblue;
+         color: black;
+         padding: 20px;
+          opacity:90%;}
+
+    .hprado{background-color: antiquewhite ;
+        text-shadow: 1px 1px 7px rgb(156, 189, 247);
+        border-style: inset ;
+        font-size:larger;
+    color: rgb(0, 0, 45);}
+
+    .imgprado{margin-left: 3%;
+    border-radius: 15px;}
+
+    .dcorolla{background-color: aliceblue;
+        color: black;
+        padding: 20px;
+         opacity:90%;}
+
+    .hcorolla{background-color: antiquewhite ;
+        text-shadow: 1px 1px 7px rgb(156, 189, 247);
+        border-style: inset ; 
+        font-size:larger;
+        color: rgb(0, 0, 45);}
+
+    .imgcorolla{margin-left: 3%;
+        border-radius: 15px;}
+
+    .dhilux{background-color: aliceblue;
+        color: black;
+        padding: 20px;
+         opacity:90%;}
+
+    .hhilux{background-color: antiquewhite ;
+        text-shadow: 1px 1px 7px rgb(156, 189, 247);
+        border-style: inset ;
+        font-size:larger; 
+        color: rgb(0, 0, 45);}
+
+    .imghilux{margin-left: 3%;
+        border-radius: 15px;}
+
+    .dcamry{background-color: aliceblue;
+        color: black;
+        padding: 20px;
+         opacity:90%;}
+
+    .hcamry{background-color: antiquewhite ;
+        text-shadow: 1px 1px 7px rgb(156, 189, 247);
+        border-style: inset ;
+        font-size:larger;
+        color: rgb(0, 0, 45);}
+
+    .imgcamry{margin-left: 3%;
+        border-radius: 15px;}
+
+    .dtundra{background-color: aliceblue;
+        color: black;
+        padding: 20px;
+         opacity:90%;}
+
+    .htundra{background-color: antiquewhite ;
+        text-shadow: 1px 1px 7px rgb(156, 189, 247);
+        border-style: inset ;
+        font-size:larger;
+        color: rgb(0, 0, 45);}
+
+    .imgtundra{margin-left: 3%;
+        border-radius: 15px;}
+
+    .drav{background-color: aliceblue;
+        color: black;
+        padding: 20px;
+         opacity:90%;}
+
+    .hrav{background-color: antiquewhite ;
+        text-shadow: 1px 1px 7px rgb(156, 189, 247);
+        border-style: inset ;
+        font-size:larger;
+        color: rgb(0, 0, 45);}
+
+    .imgrav{margin-left: 3%;
+        border-radius: 15px;}
+
+    
