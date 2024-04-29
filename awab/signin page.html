@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up </title>
+    <link rel="stylesheet" href="signin page.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>sign in</h1>
+            <div class="input-box">
+                <input type="text" placeholder="first name" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="last name" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="your email" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="creat a password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="confirm password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <div class="rem">
+                <label><input type="checkbox">remember me</label>
+            
+            </div>
+            <button type="submit" class="btn">sign in</button>
+            <div class="register-link">
+                <p>already have an acount? <a href="loginpage.html">log in</a></p>
+            </div>
+        </form>
+    </div>
+    <script >
+        document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('form');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const inputs = form.querySelectorAll('input[type="text"], input[type="password"]');
+        let emptyField = false;
+
+        inputs.forEach(function(input) {
+            if (!input.value.trim()) {
+                emptyField = true;
+                return;
+            }
+        });
+
+        if (emptyField) {
+            alert('Please fill in all fields.');
+            return;
+        }
+
+        const password = form.querySelector('input[placeholder="creat a password"]').value;
+        const confirmPassword = form.querySelector('input[placeholder="confirm password"]').value;
+
+        if (password !== confirmPassword) {
+            alert('Passwords do not match. Please try again.');
+            return;
+        }
+
+        // If all validations pass, you can submit the form here
+        // form.submit();
+    });
+});
+    </script>
+</body>
+</html>
