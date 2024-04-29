@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(243, 230, 219);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #ff4e37;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation{
+    color: #ff4e37;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.nayigtion a:hover{
+    color: #f3d2ce;
+}
+
+section{
+    padding: 100px 200px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imege/packgraound.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.cards-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 70px auto;
+    width: 300px;
+    height: 300px;
+}
+
+.card_image {
+    width: inherit;
+    height: inherit;
+}
+
+.card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.card_title {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imege/packgraound.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: #ff4e37;
+    margin-top: 10px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.main h3 {
+    color: #ff4e37;
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.soial-icons a{
+    color: black;
+    font-size: 1.7em;
+    padding-right: 30px;
+    font-weight: 50;
+
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: #ff4e37;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.women {
+    background-color: #ffb6ac;
+}
+.women .content{
+    margin-top: 30px;
+}
+.women-card{
+    background-color: #fff;
+    border: 1px solid #000000;
+}
+
+.cards-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 70px auto;
+    width: 300px;
+    height: 300px;
+}
+
+.card_image {
+    width: inherit;
+    height: inherit;
+}
+
+.card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.card_title {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+body{
+    background-color: #ffc1b9;
+}
+.men {
+    background-color: #ffb6ac;
+}
+.men.content{
+    margin-top: 30px;
+}
+.men-card{
+    background-color: #fff;
+    border: 1px solid #000000;
+}
+
+.cards-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 70px auto;
+    width: 300px;
+    height: 300px;
+}
+
+.card_image {
+    width: inherit;
+    height: inherit;
+}
+
+.card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.card_title {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.card{
+    margin: 70px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imege/packgraound.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.cards-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 70px auto;
+    width: 300px;
+    height: 300px;
+}
+
+.card_image {
+    width: inherit;
+    height: inherit;
+}
+
+.card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.card_title {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+li{
+    display: inline-block;
+}
