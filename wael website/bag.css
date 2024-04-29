@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{ font-family: 'poppins',sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+header{background-color:var(--bakground);
+    width: 100%;
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding:10px 200px ;
+}
+
+body{
+    background-color: var(--bakground);
+}
+:root{
+  --primary-color:#ff4e37;
+   --secondery-color:#fff;
+   --bakground:white;
+   
+}
+.dark-theme{
+    --primary-color:#000106;
+   --secondery-color:#fff;
+   --bakground:rgb(0, 0, 0);
+  
+}
+#icon{ 
+    width:30px;
+    cursor: pointer;
+}
+.logo{
+    text-decoration: none;
+    color :#ff4e37;
+    text-transform: uppercase;
+    font-weight: 700px;
+font-size: 1.8em;
+}
+.navigation a{
+color :#ff4e37;
+text-decoration: none;
+font-weight: 500;
+font-size: 1.1em;
+padding-left: 30px;
+}
+
+.navigation a:hover{ 
+    color:#e867b8;
+    transform:scale(1.1) ;
+}
+section{
+    padding:100px 140px;
+}
+.main{
+    width: 100%;
+    min-height:100vh;
+    display:flex;
+align-items: center;
+background:url(images-b&s/background-2.jpg)no-repeat ;
+background-size: cover;
+background-position: center;
+}
+.main h2{
+    color:var(--secondery-color);
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 7px;
+    color:var(--primary-color);
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color:var(--secondery-color);
+    font-size: 2em;
+    font-weight:700 ;
+    letter-spacing: 1px;
+    margin-top: 7px;
+    margin-bottom: 27px;
+}
+.main-btn{
+    color:var(--secondery-color);
+background-color:var(--primary-color);
+text-decoration: none;
+font-size:1.1em ;
+font-weight:600 ;
+display: inline-block;
+padding: 0.9375em 2.1875em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 20px;
+transition: 0.7s;
+} 
+.main-btn:hover{
+    background-color:var(--secondery-color);;
+    transform:scale(1.1) ;
+}
+.social-icons a {
+    color:#e3b0de;
+    font-size: 1.7em;
+    margin-left: 20px;
+}
+.social-icons :hover{
+  background-color:#e3b0de;
+  transform:scale(1.1);
+  transition:0.7s;
+}
+
+.title{
+    display: flex;
+    justify-content:center;
+    color:var(--primary-color);
+    font-size:2.2em ;
+    font-weight: 800;
+    margin-bottom:30px  ;
+}
+.content{
+ display: flex;  
+ justify-content: center; 
+ flex-direction: row;
+ text-wrap:wrap ;
+}
+.size{
+ background-color:var(--secondery-color); 
+  width:21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1/15%);
+ border-radius:10px ;
+ padding: 25px; 
+ margin:15px;
+}
+.size:hover {
+    transform:scale(1.1) ;
+    transition: 0.7s;
+}
+.icon{
+    color:var(--primary-color);
+    font-size:8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+
+}
+.info h3{
+    color:var(--primary-color);
+    font-size:1.2em ;
+    font-weight: 700;
+    margin: 10px;
+}
+input{
+    border: none;
+    color:var(--primary-color);
+    padding: 3px;
+    border-radius: 2px;
+
+}
+.Anime{
+    display: inline-block;
+
+}
+.gym{
+    display: inline-block;
+    
+}
+
+
+.p-1{
+    width:100%;
+    font-size:20px;
+    margin-right: 3em;
+    padding: 10px;
+    color: #ada9a9;
+    align-items:center;
+}
+#i-1{
+    width: 200px;
+    height: 200px;
+    margin-right:3em;
+    display: flex;
+
+}
+#i-2{
+    width: 200px;
+    height: 200px;
+    display: flex;
+
+}
+#i-3{
+    width: 200px;
+    height: 200px;
+    margin-right:3em;
+    display: flex;
+    padding-left: 16px;
+
+}
+
+#i-4{
+    width: 200px;
+    height: 200px;
+    margin-right:3em;
+    display: flex;
+}
+#i-5{
+    width: 200px;
+    height: 200px;
+    margin-right:3em;
+    display: flex;
+}
+#i-6{
+    width: 200px;
+    height: 200px;
+    margin-right:3em;
+    display: flex;
+}
+body{
+ background-color:var(--bakground);
+}
+        
+
+@media (max-width:1023px){
+  header{
+    padding: 12px 20px;
+
+  }   
+  .navigation{
+    padding-left: 10px;
+  }
+  .title{
+    font-size: 1.8em;
+  }
+  section{
+    padding: 80px;
+  }
+  .main-content h2{
+    font-size:1em;
+  }
+  .content{
+    flex-direction: column;
+    align-items: center;
+  }
+  @media(max-width:641px) {
+}
+    body{
+        font-size:12px
+    }
+    .main-content h2 {
+       font-size: 0.8em; 
+    }
+    .main-content h3{
+        font-size:1.4em;
+      }
+      @media(max-width:300px){}
+        body{
+            font-size:10px
+        }
+}
+li{
+    display: inline-block;
+}
