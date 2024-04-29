@@ -282,3 +282,13 @@ p{
 .imgg{
     width: 40px;
 }
+img{
+    width: 250px;
+}
+.img{
+    display: inline-block;
+    margin: 10px;
+    background-color: #bebebe;
+    border-radius: 10px;
+    padding: 5px;
+}
