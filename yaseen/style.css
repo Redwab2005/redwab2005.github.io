@@ -248,7 +248,6 @@ body{
     margin: 70px auto;
     width: 300px;
     height: 300px;
-    display: inline-block;
 }
 
 .card_image {
@@ -261,6 +260,9 @@ body{
     height: inherit;
     border-radius: 40px;
     object-fit: cover;
+}
+.card{
+    display: inline-block;
 }
 
 .card_title {
